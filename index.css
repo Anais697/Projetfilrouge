@@ -1,0 +1,34 @@
+/*Accueil projet fil rouge*/
+*{
+    margin: 0;
+    padding: 0;
+    font-family: 'Raleway', sans-serif;
+    background-color: #fef6df;
+}
+.navbar-custom, .logo, li, form, i{
+    background-color: #e1f16b;
+}
+.nav-link{
+    color: #e598d8;
+    font-size: 1.5em;
+    font-weight: bold;
+}
+.nav-link:hover{
+    color: #AC80A5;
+
+}
+.dropdown-item{
+    color:#e598d8;
+    font-size: 1.5em;
+}
+.dropdown-item:hover{
+    color: #AC80A5;
+
+}
+i{
+    color: #e598d8;
+}
+.logo{
+    height: 10em;
+    width: 10em;
+}

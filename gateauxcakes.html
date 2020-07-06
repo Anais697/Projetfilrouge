@@ -1,4 +1,4 @@
-<!-- Gâteaux & Cakes projet fil rouge -->
+<!-- Recettes projet fil rouge -->
 <!doctype html>
 <html lang="fr">
   <head>
@@ -8,12 +8,53 @@
 
     <!-- Bootstrap CSS -->
     <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.0/css/bootstrap.min.css" integrity="sha384-9aIt2nRpC12Uk9gS9baDl411NQApFmC26EwAOH8WgZl5MYYxFfc+NcPb1dKGj7Sk" crossorigin="anonymous">
-    <link rel="stylesheet" href="gateauxcakes.css">
-    <title>Gâteaux & Cakes</title>
+    <link rel="stylesheet" href="recettes.css">
+    <title>Recettes</title>
   </head>
   <body>
-    <h1>Hello, world!</h1>
 
+    <nav class="navbar navbar-custom">
+        <a class="navbar-brand" href="index.html">
+          <img class="logo justify-content-center" src="Logoprojetfilrouge.png" alt="" loading="lazy">
+        </a>
+        
+        <ul class="nav justify-content-end">
+            <li class="nav-item">
+              <a class="nav-link active" href="index.html">Bienvenue</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="apropos.html">Qui êtes-vous?</a>
+            </li>
+            <li class="nav-item dropdown">
+                <a class="nav-link dropdown-toggle" data-toggle="dropdown" href="recettes.html" role="button" aria-haspopup="true" aria-expanded="false">Livre de recettes</a>
+                <div class="dropdown-menu">
+                  <a class="dropdown-item" href="gateauxcakes.html">Gâteaux & Cakes</a>
+                  <a class="dropdown-item" href="biscuits.html">Biscuits</a>
+                  <a class="dropdown-item" href="brioches.html">Brioches</a>
+                </div>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="contact.html">Contact</a>
+            </li>   
+        </ul>
+        <form class="form-inline justify-content-end">
+            <input class="form-control mr-sm-2" type="search" placeholder="Recherche" aria-label="Recherche">
+            <i class="fas fa-search" type="submit"> </i>
+        </form>
+  </nav>
+
+<!-- Recettes -->
+<div class="container-fluid"><br>
+  <div class="row">
+     <div class="col-lg-4 col-12">
+         <article>
+             <img class="img-fluid" src="layercake.jpg" alt="Layer cake citron/fraises/framboises">
+             <h6> Layer cake d'été</h6>
+             <p>  </p>
+             <hr style="height:2px; width: 33%; margin-left: 33%; margin-right: 33%;">
+             <p> </p>
+         </article>
+     </div>
     <!-- Optional JavaScript -->
     <!-- jQuery first, then Popper.js, then Bootstrap JS -->
     <script src="https://code.jquery.com/jquery-3.5.1.slim.min.js" integrity="sha384-DfXdz2htPH0lsSSs5nCTpuj/zy4C+OGpamoFVy38MVBnE+IbbVYUew+OrCXaRkfj" crossorigin="anonymous"></script>

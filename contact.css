@@ -1,5 +1,44 @@
-/*Contact projet fil rouge*/
+                                 /*Contact projet fil rouge*/
 *{
     margin: 0;
     padding: 0;
+    background-color: #fef6df;
+}
+
+/* Navigation */
+.navbar-custom, .logo, li, form, i{
+    background-color: #e1f16b;
+}
+.logo{
+    height: 10em;
+    width: 10em;
+}
+.nav-link{
+    color: #e598d8;
+    font-size: 2em;
+    font-family: 'Emilys Candy', cursive;
+}
+.nav-link:hover{
+    color: #AC80A5;
+
+}
+.dropdown-item{
+    color:#e598d8;
+    font-size: 1.5em;
+    font-family: 'Emilys Candy', cursive;
+}
+.dropdown-item:hover{
+    color: #AC80A5;
+
+}
+i{
+    color: #e598d8;
+}
+
+.container-fluid{
+    padding-top: 10em;
+    font-size: 1.5em;
+}
+.commentaire{
+    background-color: #fef6df ;
 }

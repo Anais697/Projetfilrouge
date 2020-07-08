@@ -42,16 +42,15 @@ i{
 }
 
 /* recette */
-
-img{
-    height: 20em;
-    width: auto;
-    margin-top: 3em;
-    border-radius: 1em;
+.container-fluid{
+    margin-top: 2em;
+    margin-bottom: 2em;
 }
-#texte{
-    margin-left: 5em;
-    margin-right: 5em;
+img{
+    height: 40em;
+    width: auto;
+    border-radius: 1em;
+    
 }
 
 /* Footer */

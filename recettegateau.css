@@ -47,12 +47,13 @@ i{
     margin-bottom: 2em;
 }
 img{
-    height: 20em;
+    height: 40em;
     width: auto;
     border-radius: 1em;
-    
 }
-
+h1{
+    font-family: 'Emilys Candy', cursive;
+}
 /* Footer */
 footer{
     background-color: #e1f16b;

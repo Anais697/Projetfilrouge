@@ -1,8 +1,12 @@
 /*Contact projet fil rouge*/
 body, html{
-   
+    margin: 0;
+    padding: 0;
     font-family: 'Raleway', sans-serif;
     background-color: #fef6df;
+    color: #5B595A;
+    
+    
 }
 
 /* Navigation */
@@ -40,20 +44,23 @@ i{
 }
 
 /* formulaire de contact */
-.container-fluid{
-    padding-top: 3em;
-    font-size: 1em;
-    color: #363636;
-}
 
 .commentaire{
-    background-color: #fef6df ;
+    color: #363636;
+    padding-top: 3em;
+    padding-bottom: 3em;
+    font-size: 1em;
+}
+.text{
+    margin-bottom: 2em;
+    font-weight: bold;
+    font-size: 1em;
 }
 .btn-custom{
     background-color: #e598d8;
     color: #363636;
-    margin-bottom: 1em;
     width: 6em;
+    margin-left: 2em;
 }
 
 /* footer */

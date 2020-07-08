@@ -1,9 +1,11 @@
 /* Recette gateau projet fil rouge */
 
 body, html{
-   
+    margin: 0;
+    padding: 0;
     font-family: 'Raleway', sans-serif;
     background-color: #fef6df;
+    color: #5B595A;
 }
 
 /* Navigation */
@@ -35,8 +37,20 @@ li{
     color: #AC80A5;
 
 }
+
 i{
     color: #e598d8;
+}
+/* recette */
+.container-fluid{
+    margin-top: 2em;
+    margin-bottom: 2em;
+}
+img{
+    height: 20em;
+    width: auto;
+    border-radius: 1em;
+    
 }
 
 /* Footer */

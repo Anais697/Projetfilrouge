@@ -1,7 +1,7 @@
-/*A propos projet fil rouge*/
+/* Recette gateau projet fil rouge */
+
 body, html{
-    margin: 0;
-    padding: 0;
+   
     font-family: 'Raleway', sans-serif;
     background-color: #fef6df;
 }
@@ -35,21 +35,14 @@ li{
     color: #AC80A5;
 
 }
-
 i{
     color: #e598d8;
 }
-/* texte présentation */
-.cookie{
-    font-size: 2em;
-    margin: 1em;
-}
-/* footer */
+
+/* Footer */
 footer{
     background-color: #e1f16b;
-    padding-top:0.93em;
-    padding-bottom:0.93em
-    
+    padding:0.93em;
 }
 .nom, a, .credit{
     color:#e598d8;

@@ -1,22 +1,24 @@
-                           /* G&C projet fil rouge */
-
-*{
+body, html{
     margin: 0;
     padding: 0;
+    font-family: 'Raleway', sans-serif;
     background-color: #fef6df;
 }
 
 /* Navigation */
-.navbar-custom, .logo, li, form, i{
+.navbar-custom {
     background-color: #e1f16b;
 }
 .logo{
-    height: 10em;
-    width: 10em;
+    height: 5em;
+    width: 5em;
+}
+li{
+    padding-right: 2.2em;
 }
 .nav-link{
-    color: #e598d8;
-    font-size: 2em;
+    color: #e598d8 !important;
+    font-size: 1.3em;
     font-family: 'Emilys Candy', cursive;
 }
 .nav-link:hover{
@@ -25,13 +27,31 @@
 }
 .dropdown-item{
     color:#e598d8;
-    font-size: 1.5em;
+    font-size: 1.1em;
     font-family: 'Emilys Candy', cursive;
 }
 .dropdown-item:hover{
     color: #AC80A5;
 
 }
+
 i{
     color: #e598d8;
+}
+/* footer */
+footer{
+    background-color: #e1f16b;
+    padding:0.93em;   
+}
+.nom, a, .credit{
+    color:#e598d8;
+    font-family: 'Emilys Candy', cursive;
+    font-size: 1em;
+}
+a{
+    text-decoration: none;
+    color: inherit;
+}
+a:hover{
+    color: #AC80A5;
 }

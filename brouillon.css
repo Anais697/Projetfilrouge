@@ -1,39 +1,7 @@
-body{
-    margin: 0;
-    padding: 0;
-    height: 100%;
-}
-
-/*header*/
-
-header{
-    background-color: #222;
+*{
     margin: 0;
     padding: 0;
 }
-
-a{
-    /*font-family: 'MuseoModerno', cursive;*/
-    font-family: 'Open Sans', sans-serif;
+footer{
+    background-color: red;
 }
-
-.navbar-brand{
-    margin: 0 3%;
-}
-
-h1{
-    margin-bottom: 0;
-    text-align: center;
-    font-family: 'MuseoModerno', cursive;
-    font-size: 4.5vw;
-    background-image: linear-gradient(to right, #3fb6ce, #baeaf4 55%, #f4baf0 40%, #dd1137);
-    color: transparent;
-    -webkit-background-clip: text;
-    background-clip: text
-    
-}
-
-.premier{
-    background-color: #222;
-    margin: 0;
-    padding: 0;

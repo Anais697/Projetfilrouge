@@ -42,8 +42,7 @@ i{
 
 /* Jumbotron */
 .jumbotron, .jumbotron-fluid{
-    background-image: url('../Projetfilrouge/Château.jpg');
-    /* photo à retoucher */
+    background-image: url('../Projetfilrouge/Château.jpgg');
     background-size: cover;
     height: 50em;
     margin-bottom: 0;

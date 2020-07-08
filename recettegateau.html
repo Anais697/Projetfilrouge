@@ -16,17 +16,23 @@
   <body>
 
     <!-- navigation -->
-    <nav class="navbar navbar-custom">
+     <!-- Navigation -->
+     <header>
+      <nav class="navbar navbar-light navbar-custom navbar-expand-lg">
         <a class="navbar-brand" href="index.html">
-          <img class="logo justify-content-center" src="Logoprojetfilrouge.png" alt="" loading="lazy">
+          <img class="logo" src="Logoprojetfilrouge.png" alt="" loading="lazy">
         </a>
-        
-        <ul class="nav justify-content-end">
+        <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarTogglerDemo02" aria-controls="navbarTogglerDemo02" aria-expanded="false" aria-label="Toggle navigation">
+          <span class="navbar-toggler-icon"></span>
+        </button>
+      
+        <div class="collapse navbar-collapse" id="navbarTogglerDemo02">
+          <ul class="navbar-nav mx-auto">
             <li class="nav-item">
               <a class="nav-link active" href="index.html">Bienvenue</a>
             </li>
             <li class="nav-item">
-              <a class="nav-link" href="apropos.html">Qui êtes-vous?</a>
+              <a class="nav-link" href="apropos.html">Qui suis-je ?</a>
             </li>
             <li class="nav-item dropdown">
                 <a class="nav-link dropdown-toggle" data-toggle="dropdown" href="recettes.html" role="button" aria-haspopup="true" aria-expanded="false">Livre de recettes</a>
@@ -39,11 +45,17 @@
               <a class="nav-link" href="contact.html">Contact</a>
             </li>   
         </ul>
-        <form class="form-inline justify-content-end">
+      
+          <form class="form-inline">
             <input class="form-control mr-sm-2" type="search" placeholder="Recherche" aria-label="Recherche">
             <i class="fas fa-search" type="submit"> </i>
         </form>
-  </nav>
+      </div>
+        
+      </nav>
+</header>
+  
+  
   <!-- footer -->
 <footer>
   <div class="page-footer text-center">

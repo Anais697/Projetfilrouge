@@ -45,6 +45,7 @@ i{
     font-size: 1em;
     color: #363636;
 }
+
 .commentaire{
     background-color: #fef6df ;
 }
@@ -52,6 +53,7 @@ i{
     background-color: #e598d8;
     color: #363636;
     margin-bottom: 1em;
+    width: 6em;
 }
 
 /* footer */

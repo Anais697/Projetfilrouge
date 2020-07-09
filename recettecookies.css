@@ -52,6 +52,12 @@ img{
     border-radius: 1em;
     
 }
+#titre{
+    padding-top: 1em;
+}
+h1{
+    font-family: 'Emilys Candy', cursive;
+}
 
 /* Footer */
 footer{
@@ -70,8 +76,8 @@ a{
 a:hover{
     color: #AC80A5;
 }
-@media (max-width: 900px) {
-    .container-fluid{
+@media (min-width: 300px) and (max-width: 1000px) {
+    img{
         width: 100%;
     }
   }

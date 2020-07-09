@@ -47,12 +47,19 @@ i{
     margin-bottom: 2em;
 }
 img{
-    height: 40em;
+    height: 30em;
     width: auto;
     border-radius: 1em;
+    
 }
-h1{
+#titre{
+    padding-top: 1em;
+}
+h1, h2, h3{
     font-family: 'Emilys Candy', cursive;
+}
+.citron, .assemblage, .fruits, .beurre{
+    padding-top: 1em;
 }
 /* Footer */
 footer{
@@ -71,3 +78,8 @@ a{
 a:hover{
     color: #AC80A5;
 }
+@media (min-width: 300px) and (max-width: 1000px) {
+    img{
+        width: 100%;
+    }
+  }

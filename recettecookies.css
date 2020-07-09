@@ -55,7 +55,7 @@ img{
 #titre{
     padding-top: 1em;
 }
-h1{
+h1, h2, h3{
     font-family: 'Emilys Candy', cursive;
 }
 

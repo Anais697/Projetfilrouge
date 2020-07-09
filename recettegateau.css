@@ -78,7 +78,7 @@ a{
 a:hover{
     color: #AC80A5;
 }
-@media (min-width: 300px) and (max-width: 1000px) {
+@media (min-width: 300px) and (max-width: 1400px) {
     img{
         width: 100%;
     }

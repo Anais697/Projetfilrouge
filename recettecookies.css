@@ -47,7 +47,7 @@ i{
     margin-bottom: 2em;
 }
 img{
-    height: 40em;
+    height: 30em;
     width: auto;
     border-radius: 1em;
     
@@ -70,3 +70,8 @@ a{
 a:hover{
     color: #AC80A5;
 }
+@media (max-width: 900px) {
+    .container-fluid{
+        width: 100%;
+    }
+  }

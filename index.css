@@ -42,7 +42,7 @@ i{
 
 /* Jumbotron */
 .jumbotron, .jumbotron-fluid{
-    background-image: url('../Projetfilrouge/Château.jpg');
+    background-image: url('Château.jpg');
     background-size: cover;
     height: 50em;
     margin-bottom: 0;
